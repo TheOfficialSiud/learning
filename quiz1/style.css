@@ -1,0 +1,34 @@
+body {
+    background-image: url('resource/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.video-player video{
+    width: 460px;
+    padding:10px 10px 0px 10px;
+    margin-bottom: 0px;
+    /* display:block; */
+}
+.video-player{
+    display: flex;
+}
+
+body {
+    background-attachment: fixed;
+    overflow-y: auto;
+}
+p.list-text{
+    padding-left: 10px;
+}
+
+li {
+    position: relative;
+}
+thead, td{
+    padding: 10px;
+    border: 2pt solid black;
+}
